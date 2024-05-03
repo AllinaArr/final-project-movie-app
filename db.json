@@ -281,7 +281,7 @@
       "AKA": null,
       "IMDB_URL": "https://www.imdb.com/title/tt0133093/",
       "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0133093%2F&rhash=77ed0696a538f4",
-      "IMG_POSTER": "https://m.media-amazon.com/images/I/51qO4c+Aa0L.jpg",
+      "IMG_POSTER": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "photo_width": 1000,
       "photo_height": 1481
     },
@@ -294,7 +294,7 @@
       "AKA": null,
       "IMDB_URL": "https://www.imdb.com/title/tt1333125/",
       "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1333125%2F&rhash=77ed0696a538f4",
-      "IMG_POSTER": "https://m.media-amazon.com/images/I/51zYSZrT5lL.jpg",
+      "IMG_POSTER": "https://m.media-amazon.com/images/S/pv-target-images/27a6756c9882a29dffa07fe256d34099a0079bb6dab53968ed73bcf6b4b89111.jpg",
       "photo_width": 1000,
       "photo_height": 1481
     },
@@ -307,7 +307,7 @@
       "AKA": null,
       "IMDB_URL": "https://www.imdb.com/title/tt0810913/",
       "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0810913%2F&rhash=77ed0696a538f4",
-      "IMG_POSTER": "https://m.media-amazon.com/images/I/51D8YjRRSmL.jpg",
+      "IMG_POSTER": "https://m.media-amazon.com/images/M/MV5BNjczMTU5OTUyMl5BMl5BanBnXkFtZTcwODEzNjc3Ng@@._V1_.jpg",
       "photo_width": 1000,
       "photo_height": 1481
     },
@@ -320,7 +320,7 @@
       "AKA": null,
       "IMDB_URL": "https://www.imdb.com/title/tt1213644/",
       "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1213644%2F&rhash=77ed0696a538f4",
-      "IMG_POSTER": "https://m.media-amazon.com/images/I/51vmL2ryaiL.jpg",
+      "IMG_POSTER": "https://m.media-amazon.com/images/M/MV5BMTIzMDQyNDgwNl5BMl5BanBnXkFtZTcwMDA0MTc3MQ@@._V1_FMjpg_UX1000_.jpg",
       "photo_width": 1000,
       "photo_height": 1481
     },
@@ -333,7 +333,7 @@
       "AKA": null,
       "IMDB_URL": "https://www.imdb.com/title/tt0327554/",
       "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0327554%2F&rhash=77ed0696a538f4",
-      "IMG_POSTER": "https://m.media-amazon.com/images/I/61Z0b5kV%2B9L._AC_SY679_.jpg",
+      "IMG_POSTER": "https://m.media-amazon.com/images/I/81UDoUoq83L._AC_UF894,1000_QL80_.jpg",
       "photo_width": 1000,
       "photo_height": 1481
     },
@@ -412,6 +412,45 @@
       "IMDB_URL": "https://www.imdb.com/title/tt0938283/",
       "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0938283%2F&rhash=77ed0696a538f4",
       "IMG_POSTER": "https://images.fandango.com/ImageRenderer/500/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/134588/TLA-2.jpg",
+      "photo_width": 1000,
+      "photo_height": 1481
+    },
+    {
+      "TITLE": "Friends",
+      "YEAR": 1994,
+      "IMDB_ID": "tt0108778",
+      "RANK": null,
+      "ACTORS": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer",
+      "AKA": null,
+      "IMDB_URL": "https://www.imdb.com/title/tt0108778/",
+      "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0108778%2F&rhash=77ed0696a538f4",
+      "IMG_POSTER": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+      "photo_width": 1000,
+      "photo_height": 1481
+    },
+    {
+      "TITLE": "Modern Family",
+      "YEAR": 2009,
+      "IMDB_ID": "tt1442437",
+      "RANK": null,
+      "ACTORS": "Ed O'Neill, Sofía Vergara, Julie Bowen, Ty Burrell, Jesse Tyler Ferguson, Eric Stonestreet",
+      "AKA": null,
+      "IMDB_URL": "https://www.imdb.com/title/tt1442437/",
+      "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1442437%2F&rhash=77ed0696a538f4",
+      "IMG_POSTER": "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_FMjpg_UX1000_.jpg",
+      "photo_width": 1000,
+      "photo_height": 1481
+    },
+    {
+      "TITLE": "Sherlock",
+      "YEAR": 2010,
+      "IMDB_ID": "tt1475582",
+      "RANK": null,
+      "ACTORS": "Benedict Cumberbatch, Martin Freeman, Una Stubbs, Rupert Graves",
+      "AKA": null,
+      "IMDB_URL": "https://www.imdb.com/title/tt1475582/",
+      "IMDB_IV": "https://t.me/iv?url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1475582%2F&rhash=77ed0696a538f4",
+      "IMG_POSTER": "https://m.media-amazon.com/images/M/MV5BMWEzNTFlMTQtMzhjOS00MzQ1LWJjNjgtY2RhMjFhYjQwYjIzXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg",
       "photo_width": 1000,
       "photo_height": 1481
     }
