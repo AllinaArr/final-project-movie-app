@@ -1,16 +1,18 @@
-//create a fetch movies and display 10 of them on the page
+//getting the title and IMG_POSTER
+document.addEventListener("DOMContentLoaded", (event) => {
+  const imgPlace = document.querySelector(".grid-item");
+  fetch("http://localhost:3000/movies")
+    .then((response) => response.json())
+    .then((data) => {
+      // Iterate over the movies array
+      data.forEach((movie) => {
+        // Access the IMG_POSTER field of each movie and log it
+        console.log("Title:", movie.TITLE, ", IMG_POSTER:", movie.IMG_POSTER);
+        const imgAdd = document.createElement("img");
 
-//https://search.imdbot.workers.dev/?q=Land/description/#IMG_POSTER -> to get a URL
-
-const movie = "Land";
-fetch(`https://search.imdbot.workers.dev/?q=${movie}/#IMG_POSTER`)
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data);
-    // const posterUrl = data[0].poster;
-
-    // const imgElement = document.querySelector(".grid-item img");
-
-    // imgElement.src = posterUrl;
-    // imgElement.alt = data[0].title;
-  });
+        imgAdd.src = movie.IMG_POSTER;
+        imgAdd.alt = movie.TITLE;
+        imgPlace.append(imgAdd);
+      });
+    });
+});
