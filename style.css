@@ -39,14 +39,14 @@ nav {
 }
 
 .nav-list li.active {
-  view-transition-name: activeNavTab;
+  /* view-transition-name: activeNavTab; */
   background: #cdbaef;
   position: relative;
 }
 
-::view-transition-group(activeNavTab) {
+/* ::view-transition-group(activeNavTab) {
   animation-duration: 500ms;
-}
+} */
 
 .nav-list li.active::before,
 .nav-list li.active::after {
@@ -99,8 +99,8 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 
 .grid-container > img {
