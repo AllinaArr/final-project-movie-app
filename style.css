@@ -91,7 +91,6 @@ nav {
 
 img {
   display: grid;
-
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -99,8 +98,7 @@ img {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px 150px;
-  grid-template-rows: 200px 200px 200px 200px 200px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   column-gap: 10px;
   row-gap: 10px;
 }
