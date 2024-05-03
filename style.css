@@ -79,3 +79,13 @@ nav {
   position: relative;
   z-index: 10;
 }
+
+#home-name,
+#search-input {
+  display: inline-block;
+}
+
+#search-input {
+  margin-left: 30rem;
+  text-align: center;
+}
