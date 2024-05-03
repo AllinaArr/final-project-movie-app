@@ -45,6 +45,10 @@ nav {
   position: relative;
 }
 
+::view-transition-group(activeNavTab) {
+  animation-duration: 500ms;
+}
+
 .nav-list li.active::before,
 .nav-list li.active::after {
   --border-radius: 1rem;
@@ -70,5 +74,8 @@ nav {
 
 .nav-list a {
   color: rgb(21, 66, 111);
+  display: block;
   text-decoration: none;
+  position: relative;
+  z-index: 10;
 }
