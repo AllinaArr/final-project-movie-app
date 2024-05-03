@@ -62,7 +62,7 @@ nav {
 
 .nav-list li.active::before {
   top: calc(var(--border-radius) * -1);
-  border-radius: 0 0 100vw 0;
+  border-radius: 0 0 100vw 0vw;
   box-shadow: 5px 5px 0 5px #cdbaef;
 }
 
@@ -88,4 +88,26 @@ nav {
 #search-input {
   margin-left: 30rem;
   text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-template-rows: 200px 200px 200px 200px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.grid-container > div {
+  /* width: 100px; */
+  /* height: 100px; */
+  border: 1px solid blue;
+  border-radius: 10px;
+  float: left;
+}
+
+.grid-item {
+  border-radius: 10px;
+  /* height: 100px; */
+  /* width: auto; */
 }
