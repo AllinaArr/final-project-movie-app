@@ -10,7 +10,7 @@ body {
   font-family: "Lato", sans-serif;
   background-color: #cdbaef;
   display: grid;
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 15rem 1fr;
   gap: 2rem;
 }
 
@@ -27,8 +27,8 @@ nav {
   list-style: none;
   display: grid;
   gap: 2rem;
-  padding-block: 15rem;
-  font-size: 2rem;
+  padding-block: 10rem;
+  font-size: 1.5rem;
 }
 
 .nav-list li {

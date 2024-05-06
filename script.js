@@ -24,6 +24,7 @@ fetch("http://localhost:3000/movies")
 
 function handleMouseOver(event) {
   event.currentTarget.style.borderColor = "gold";
+  event.currentTarget.style.border = "10px";
   console.log("mouseoverWorked");
 }
 
