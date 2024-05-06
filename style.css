@@ -141,3 +141,16 @@ img {
   background-color: #333;
   color: #e5e1ec;
 }
+
+.container-button {
+  width: 100px;
+  background-color: var(--nav-bg);
+  color: #4f4959;
+  border: 1px solid #4f4959;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#headerOfSum {
+  text-align: center;
+}
