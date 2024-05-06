@@ -101,6 +101,7 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   column-gap: 30px;
   row-gap: 30px;
+  position: relative;
 }
 
 .grid-container > img {
@@ -112,6 +113,7 @@ img {
 }
 
 img:hover {
+  border-color: gold;
   transform: scale(1.1);
   transition: all 0.3s;
 }
