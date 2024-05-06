@@ -1,4 +1,5 @@
 const imgPlace = document.querySelector(".grid-container");
+let valueSpan = 0;
 
 fetch("http://localhost:3000/movies")
   .then((response) => response.json())
@@ -44,7 +45,11 @@ fetch("http://localhost:3000/movies")
 
 function handleAddToWatchlist(button) {
   button.addEventListener("click", () => {
-    alert("A movie has added to your watchlist");
+    button.textContent = "Added to your watchlist";
+    button.disabled = true;
+
+    let value = document.querySelector("span");
+    value.textContent = ++valueSpan;
   });
 }
 

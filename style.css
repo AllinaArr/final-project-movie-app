@@ -133,6 +133,14 @@ img {
   border-radius: 25px;
   cursor: pointer;
 }
+
+.overlay-button:hover {
+  display: block;
+  border-color: gold;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
 .divForBut {
   margin-top: 10px; /* Add spacing between image and button */
 }
