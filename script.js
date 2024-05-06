@@ -23,27 +23,29 @@ fetch("http://localhost:3000/movies")
       divForBut.classList.add("divForBut");
       const button = document.createElement("button");
 
-      button.textContent = "Add to watch";
+      button.textContent = "Add to my watchlist";
       button.classList.add("overlay-button");
       divForBut.appendChild(button);
+
+      handleAddToWatchlist(button);
 
       movieContainer.append(divForBut);
       imgPlace.append(movieContainer);
 
-      imgAdd.addEventListener("mouseover", () => handleMouseOver(imgAdd));
-      imgAdd.addEventListener("mouseout", handleMouseOut);
+      imgAdd.addEventListener("mouseover", (event) => {
+        console.log("mouseoverWorked");
+      });
+      imgAdd.addEventListener("mouseout", (event) => {
+        event.currentTarget.style.borderColor = "black";
+        console.log("mouseoutWorked");
+      });
     });
   });
 
-function handleMouseOver(imgAdd) {
-  // event.currentTarget.style.borderColor = "gold";
-  event.style.display = "block";
-  console.log("mouseoverWorked");
-}
-
-function handleMouseOut(event) {
-  event.currentTarget.style.borderColor = "black";
-  console.log("mouseoutWorked");
+function handleAddToWatchlist(button) {
+  button.addEventListener("click", () => {
+    alert("A movie has added to your watchlist");
+  });
 }
 
 function handleSearch() {

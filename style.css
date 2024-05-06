@@ -113,6 +113,7 @@ img {
 }
 
 #grid-image:hover {
+  display: block;
   border-color: gold;
   transform: scale(1.1);
   transition: all 0.3s;
