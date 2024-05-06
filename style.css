@@ -85,7 +85,7 @@ nav {
 }
 
 #search-input {
-  margin-left: 30rem;
+  margin-left: 30%;
   text-align: center;
 }
 
@@ -160,5 +160,10 @@ img {
 }
 
 #headerOfSum {
+  text-align: center;
+}
+
+#alphabet {
+  margin-left: auto;
   text-align: center;
 }

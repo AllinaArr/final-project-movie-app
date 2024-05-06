@@ -52,8 +52,3 @@ function handleAddToWatchlist(button) {
     value.textContent = ++valueSpan;
   });
 }
-
-function handleSearch() {
-  // const searchInput = document.querySelector("searchInput");
-  // let result = [];
-}
