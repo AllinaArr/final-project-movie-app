@@ -24,12 +24,15 @@ function handleSearch() {
         imgPlace.textContent = "";
 
         const filteredMovies = data.filter((movie) => {
+          console.log(searchValue);
           return movie.TITLE.toLowerCase().includes(searchValue);
         });
 
         filteredMovies.forEach((movie) => {
           handleDatabase(movie);
         });
+
+        event.target["search-input"].value = "";
       });
   });
 }
