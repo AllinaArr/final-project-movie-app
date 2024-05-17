@@ -10,33 +10,6 @@ fetch("http://localhost:3000/movies")
     });
   });
 
-function handleSearch() {
-  const searchForm = document.querySelector("#search-form");
-  searchForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const searchInput = document.querySelector("#search-input");
-    const searchValue = searchInput.value.trim().toLowerCase();
-
-    fetch(`http://localhost:3000/movies`)
-      .then((response) => response.json())
-      .then((data) => {
-        imgPlace.textContent = "";
-
-        const filteredMovies = data.filter((movie) => {
-          console.log(searchValue);
-          return movie.TITLE.toLowerCase().includes(searchValue);
-        });
-
-        filteredMovies.forEach((movie) => {
-          handleDatabase(movie);
-        });
-
-        event.target["search-input"].value = "";
-      });
-  });
-}
-
 function handleDatabase(movie) {
   const movieContainer = document.createElement("div");
   movieContainer.classList.add("movie-container");
@@ -67,6 +40,33 @@ function handleDatabase(movie) {
   imgPlace.append(movieContainer);
 
   handleMouseOverAndOut(imgAdd);
+}
+
+function handleSearch() {
+  const searchForm = document.querySelector("#search-form");
+  searchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const searchInput = document.querySelector("#search-input");
+    const searchValue = searchInput.value.trim().toLowerCase();
+
+    fetch(`http://localhost:3000/movies`)
+      .then((response) => response.json())
+      .then((data) => {
+        imgPlace.textContent = "";
+
+        const filteredMovies = data.filter((movie) => {
+          console.log(searchValue);
+          return movie.TITLE.toLowerCase().includes(searchValue);
+        });
+
+        filteredMovies.forEach((movie) => {
+          handleDatabase(movie);
+        });
+
+        event.target["search-input"].value = "";
+      });
+  });
 }
 
 function handleMouseOverAndOut(imgAdd) {
